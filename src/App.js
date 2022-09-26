@@ -21,8 +21,6 @@ function App() {
       <Faq />
       <Sponsers />
 
-      <br />
-
       <Footer />
     </div>
   );
