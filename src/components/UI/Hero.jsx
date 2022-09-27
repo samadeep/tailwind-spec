@@ -1,10 +1,10 @@
 import React from "react";
 
-import herovid from "../../assets/video.mp4";
+import herovid from "../../assets/2112.w026.n002.1265B.p1.1265.jpg";
 export default function Hero() {
   return (
     <div name="home" className="w-full h-[90vh] top-[90px]">
-      <video
+      <img
         className="object-cover h-full w-full absolute -z-10"
         src={herovid}
         autoPlay
