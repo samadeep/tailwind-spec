@@ -2,21 +2,49 @@ import React from "react";
 import { SiHiveBlockchain, SiStrapi, SiFsecure } from "react-icons/si";
 import { VscServerProcess } from "react-icons/vsc";
 import AboutCard from "./aboutCard";
+import codeImage from "../assets/code.jpg";
+import PageSection from "./PageSection";
 
 export default function About() {
   return (
     <div name="about" className="w-full bg-black text-white text-center">
       <div className="max-w-[1240px] mx-auto px-4 py-16 ">
         <div>
-          <h1 className="py-4">About Us</h1>
-          <p className="text-white mb-10">
-            Electrothon is a student-run hackathon, under the aegis of the
-            National Institute of Technology Hamirpur, India. An exceptional
-            place for young and dedicated minds, a platform for organizations to
-            meet a wide range of talented, and with over 1700+ registrations,
-            Electrothon serves as a hub of ingenious ideas, innovation,
-            entrepreneurship and technical skills.
-          </p>
+          <div className="mt-3 bg-black text-white text-center">
+            <PageSection
+              name="ABOUT US"
+              title="ABOUT US"
+              subtitle={`"SOCIETY FOR PROMOTION OF ELECTRONICS CULTURE"`}
+            >
+              <div className=" w-full bg-black text-white text-center flex flex-col lg:flex-row items-center justify-center gap-8">
+                {/* left */}
+
+                <div className="flex flex-col gap-4 w-full lg:w-1/2 p-8 bg-gray-900 rounded-lg">
+                  <p className="border-l-4 pl-4 odd:border-thOrange even:border-thBlue">
+                    Electrothon is a student-run hackathon, under the aegis of
+                    the National Institute of Technology Hamirpur, India.
+                  </p>
+                  <p className="border-l-4 pl-4 odd:border-thOrange even:border-thBlue">
+                    An exceptional place for young and dedicated minds, a
+                    platform for organizations to meet a wide range of talented,
+                  </p>
+                  <p className="border-l-4 pl-4 odd:border-thOrange even:border-thBlue">
+                    and with over 1700+ registrations, Electrothon serves as a
+                    hub of ingenious ideas, innovation, entrepreneurship and
+                    technical skills.
+                  </p>
+                </div>
+                {/* right */}
+                <div className="w-full lg:w-1/2 lg:rotate-6 duration-300 hover:rotate-0">
+                  <img
+                    src={codeImage}
+                    alt="code"
+                    className="rounded-lg shadow-lg shadow-cyan-500/50"
+                  />
+                </div>
+              </div>
+            </PageSection>
+          </div>
           {/* Card Container */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 ">
             {/* Card */}
@@ -47,3 +75,42 @@ export default function About() {
     </div>
   );
 }
+
+// const DevApi = () => {
+//   return (
+//     <div className="w-full bg-black text-white text-center">
+//       <PageSection
+//         name="developer API"
+//         title="Developer API"
+//         subtitle={`Angels that with clasp dreams nepenthe on this of is. Said and a my the.`}
+//       >
+//         <div className=" w-full bg-black text-white text-center flex flex-col lg:flex-row items-center justify-center gap-8">
+//           {/* left */}
+
+//           <div className="flex flex-col gap-4 w-full lg:w-1/2 p-8 bg-gray-900 rounded-lg">
+//             <p className="border-l-4 pl-4 odd:border-thOrange even:border-thBlue">
+//               Whom madam songs faster get as followed sought many leave.
+//             </p>
+//             <p className="border-l-4 pl-4 odd:border-thOrange even:border-thBlue">
+//               Whom madam songs faster get as followed sought many leave.
+//             </p>
+//             <p className="border-l-4 pl-4 odd:border-thOrange even:border-thBlue">
+//               Whom madam songs faster get as followed sought many leave.
+//             </p>
+//             <p className="border-l-4 pl-4 odd:border-thOrange even:border-thBlue">
+//               Whom madam songs faster get as followed sought many leave.
+//             </p>
+//           </div>
+//           {/* right */}
+//           <div className="w-full lg:w-1/2 lg:rotate-6 duration-300 hover:rotate-0">
+//             <img
+//               src={codeImage}
+//               alt="code"
+//               className="rounded-lg shadow-lg shadow-thBlue"
+//             />
+//           </div>
+//         </div>
+//       </PageSection>
+//     </div>
+//   );
+// };

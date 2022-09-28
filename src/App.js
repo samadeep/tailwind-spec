@@ -9,13 +9,14 @@ import Sponsers from "./Sections/sponsers";
 import Milestones from "./Sections/milestones";
 import Speakers from "./Sections/speakers";
 import Accordion from "./Sections/faq";
+import DevApi from "./Sections/about";
 
 function App() {
   return (
     <div>
       <Navbar />
       <Hero />
-      <About />
+      <DevApi />
 
       <Milestones />
       <Prizes />
