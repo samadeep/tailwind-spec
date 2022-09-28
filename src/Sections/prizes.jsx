@@ -24,7 +24,7 @@ export default function Prizes() {
             <p className="py-2 border-b mx-8">Lifetime upgrade of Taskade</p>
             <p className="py-2 border-b mx-8">Jio Recharge 100GB</p>
           </div>
-          <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
+          <button className="bg-[#8092B2] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
             View More
           </button>
         </div>
@@ -41,7 +41,7 @@ export default function Prizes() {
             <p className="py-2 border-b mx-8">Lifetime upgrade of Taskade</p>
             <p className="py-2 border-b mx-8">Jio Recharge 150GB</p>
           </div>
-          <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
+          <button className="bg-black text-[#8092B2] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
             View More
           </button>
         </div>

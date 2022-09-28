@@ -42,7 +42,7 @@ export default function Navbar() {
                 CONTACT US
               </Link>
             </li>
-            <button className="  ml-4 bg-gradient-to-r from-[#6a00ff] via-purple-500 to-[#00d8ff] ... py-3 px-10  rounded-3xl text-white  ">
+            <button className="  ml-4 bg-gradient-to-r from-[#9ff4d1] via-[#75c2f2] to-[#00d8ff] ... py-3 px-10  rounded-3xl text-[#8092b2]  ">
               Register Now
             </button>
           </ul>
@@ -90,7 +90,7 @@ export default function Navbar() {
             </li>
             <button
               className=" 
-            m-8  bg-gradient-to-r from-[#6a00ff] via-purple-500 to-[#00d8ff] ... py-3 px-9   rounded-3xl text-white  "
+            m-8  bg-gradient-to-r from-[#9ff4d1] via-[#75c2f2]-500 to-[#00d8ff] ... py-3 px-9   rounded-3xl text-white  "
             >
               Register Now
             </button>

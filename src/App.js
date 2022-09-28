@@ -7,7 +7,8 @@ import About from "./Sections/about";
 import Prizes from "./Sections/prizes";
 import Sponsers from "./Sections/sponsers";
 import Milestones from "./Sections/milestones";
-import Faq from "./Sections/faq";
+import Speakers from "./Sections/speakers";
+import Accordion from "./Sections/faq";
 
 function App() {
   return (
@@ -18,8 +19,11 @@ function App() {
 
       <Milestones />
       <Prizes />
-      <Faq />
+
+      <Speakers />
+
       <Sponsers />
+      <Accordion />
 
       <Footer />
     </div>
