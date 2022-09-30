@@ -13,15 +13,17 @@ export default function Hero() {
       />
 
       <div className="w-full h-[90%] flex flex-col justify-center items-center text-white px-4 text-center">
-        <h1 className="text-[75px]">Electrothon  <span className="blue">5.0</span> </h1>
+        <h1 className="text-[75px]">
+          Electrothon <span className="blue">5.0</span>{" "}
+        </h1>
         <br />
-         
+
         <p className="text-xl py-4 text-center">
           " MoonShot your creativity and engage
           <br /> yourself in a worldwide hackathon"
         </p>
         <div>
-          <button className="m-2">SEARCH | PLAN | ENGAGE | CREATE </button>
+          <button className="m-3">SEARCH | PLAN | ENGAGE | CREATE </button>
         </div>
       </div>
       <div>
